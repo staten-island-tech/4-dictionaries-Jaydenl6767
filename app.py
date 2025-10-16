@@ -3,7 +3,7 @@ store_items = [
     {"name": "Bread", "price": 2.49, "category": "Bakery"},
     {"name": "Milk", "price": 1.99, "category": "Dairy"},
     {"name": "Eggs", "price": 3.49, "category": "Dairy"},
-    {"name": "Nike", "price": 4.99, "category": "Beverage"}
+    {"name": "Water", "price": 4.99, "category": "Beverage"}
 ]
 
 
