@@ -1,9 +1,9 @@
 store_items = [
-    {"name": "Apple", "price": 0.99, "category": "Fruit"},
-    {"name": "Bread", "price": 2.49, "category": "Bakery"},
-    {"name": "Milk", "price": 1.99, "category": "Dairy"},
-    {"name": "Eggs", "price": 3.49, "category": "Dairy"},
-    {"name": "Water", "price": 4.99, "category": "Beverage"}
+    {"name": "Mb 1", "price": 75.0, "category": "Puma"},
+    {"name": "Yellow Crocs", "price": 50.0, "category": "Crocs"},
+    {"name": "Yeezy 360", "price": 110.75, "category": "Adidas"},
+    {"name": "Jordan 1s", "price": 120.50, "category": "Jordan"},
+    {"name": "Air Force 1s", "price": 70.0, "category": "Nike"}
 ]
 
 
@@ -38,8 +38,8 @@ while True:
     print(f" Added {selected_item['name']} to your cart.")
 
 
-    continue_shopping = input(" Do you want to continue shopping? (Yes/No): ")
-    if continue_shopping != "Yes":
+    continue_shopping = input(" Do you want to continue shopping? (yes/no): ")
+    if continue_shopping != "yes":
         break
 
 
