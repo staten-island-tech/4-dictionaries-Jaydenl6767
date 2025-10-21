@@ -1,9 +1,9 @@
 store_items = [
-    {"name": "Mb 1", "price": 75.0, "category": "Puma"},
+    {"name": "Yeezy Slides Onyx", "price": 75.0, "category": "Adidas"},
     {"name": "Yellow Crocs", "price": 50.0, "category": "Crocs"},
     {"name": "Yeezy 360", "price": 110.75, "category": "Adidas"},
     {"name": "Jordan 1s", "price": 120.50, "category": "Jordan"},
-    {"name": "Air Force 1s", "price": 70.0, "category": "Nike"}
+    {"name": "Air Force 1s", "price": 75.0, "category": "Nike"}
 ]
 
 
