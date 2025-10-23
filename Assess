@@ -1,0 +1,13 @@
+def late(x,y):
+    students = y
+    waiting = 0
+    next = y + students
+    while next < 999:
+        for i in x:
+            if x[i] == "take"
+                students == students+1 and waiting == waiting+1
+            elif x[i] == "serve"
+                waiting == waiting-1
+            elif x[i] == "close"
+                print(f"{students},{waiting},{next}")
+#late(,23)
