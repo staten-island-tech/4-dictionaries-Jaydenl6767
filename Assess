@@ -1,30 +1,17 @@
 def late():
-    actions = ["take", "take", "serve", "take", "serve", "take", "close"]
+    tickets = ["take", "take", "serve", "take", "serve", "serve", "close"]
     waiting = 0
-<<<<<<< HEAD
-    total = 23
-    next = y + students
-    while next < 999:
-        for i in x:
-            if x[i] == "take":
-                students == students+1 and waiting == waiting+1 and total == total+1
-            elif x[i] == "serve":
-                waiting == waiting-1
-            elif x[i] == "close":
-                print(f"{students},{waiting},{next}")
-
-=======
     took = 0
     start = 23
 
 
-    for action in actions:
+    for action in tickets:
         if action == "take":
-            took += 1
-            waiting += 1
+            took = took + 1
+            waiting = waiting + 1
         elif action == "serve":
             if waiting > 0:
-                waiting -= 1
+                waiting = waiting - 1
         elif action == "close":
             total = start + took
             print(took, waiting, total)
@@ -32,4 +19,3 @@ def late():
 
 
 late()
->>>>>>> 967c2f8d872f0122ac242f3e8426ab481790b607
