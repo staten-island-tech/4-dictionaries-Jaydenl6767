@@ -10,5 +10,5 @@ def late(x,y):
             elif x[i] == "serve":
                 waiting == waiting-1
             elif x[i] == "close":
-                print(f"{students},{waiting},{total}")
+                print(f"{students},{waiting},{next}")
 
