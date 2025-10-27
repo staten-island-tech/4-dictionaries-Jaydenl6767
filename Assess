@@ -1,6 +1,7 @@
-def late(x,y):
-    students = y
+def late():
+    actions = ["take", "take", "serve", "take", "serve", "take", "close"]
     waiting = 0
+<<<<<<< HEAD
     total = 23
     next = y + students
     while next < 999:
@@ -12,3 +13,23 @@ def late(x,y):
             elif x[i] == "close":
                 print(f"{students},{waiting},{next}")
 
+=======
+    took = 0
+    start = 23
+
+
+    for action in actions:
+        if action == "take":
+            took += 1
+            waiting += 1
+        elif action == "serve":
+            if waiting > 0:
+                waiting -= 1
+        elif action == "close":
+            total = start + took
+            print(took, waiting, total)
+            break
+
+
+late()
+>>>>>>> 967c2f8d872f0122ac242f3e8426ab481790b607
