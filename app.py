@@ -13,7 +13,7 @@ for index, item in enumerate(store_items):
     print(f"{index}: {item['name']} - ${item['price']} ({item['category']})")
 
 
-choice = int(input(" Enter the index of the item you want to purchase: "))
+choice = int(input(" Enter the index of the item you want to purchase?: "))
 selected_item = store_items[choice]
 print(f"\n You purchased: {selected_item['name']}")
 
