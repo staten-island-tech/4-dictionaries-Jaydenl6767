@@ -22,7 +22,7 @@ cart = []
 total = 0
 
 
-print("\n Let's keep shopping!")
+print("\n Sorry I didn't recieve your order! Please enter again, Thank You!")
 
 
 while True:
