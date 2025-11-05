@@ -6,8 +6,6 @@ store_items = [
     {"name": "Air Force 1s", "price": 75.0, "category": "Nike"}
 ]
 
-
-
 print(" Welcome to the store! Here's what's in stock:")
 for index, item in enumerate(store_items):
     print(f"{index}: {item['name']} - ${item['price']} ({item['category']})")
@@ -20,6 +18,8 @@ print(f"\n You purchased: {selected_item['name']}")
 
 cart = []
 total = 0
+
+
 
 
 print("\n Sorry I didn't recieve your order! Please enter again, Thank You!")
@@ -41,7 +41,6 @@ while True:
     continue_shopping = input(" Do you want to continue shopping? (yes/no): ")
     if continue_shopping != "yes":
         break
-
 
 print("\n Shopping Summary:")
 for item in cart:
